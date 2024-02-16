@@ -1,0 +1,1 @@
+export { FormTexts } from "./formTexts";

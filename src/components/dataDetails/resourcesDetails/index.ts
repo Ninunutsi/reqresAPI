@@ -1,0 +1,1 @@
+export { ResourcesDetails } from "./resourcesDetails";

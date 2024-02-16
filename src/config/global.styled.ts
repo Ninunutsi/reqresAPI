@@ -10,25 +10,21 @@ export const GlobalStyle = styled.createGlobalStyle`
 
   :root {
     /* Colors */
-    --clr-primary: #5243c2;
-    --clr-danger: #ff4d4f;
-    --clr-black: #090707;
-    --clr-blue: #2984ce;
+    /* light blue */
+    --clr-primary: #88c8ff;
+    /* bg */
+    --clr-black: #151019;
     --clr-light-gray: #f1f1f1;
-    --clr-gray: #00000066;
-
+    --clr-gray: #aaa;
     --clr-muted: #949ba6;
     --clr-titan-white: #f5f5ff;
     --clr-black-squeeze: #f0f7fa;
     --clr-white: #ffffff;
-
     /* for erros */
     --clr-red-400: #ed6060;
-
+    /* dark blue */
     --clr-indigo-600: #473aa6;
     --clr-indigo-500: #5243c2;
-
-    --clr-gray-200: #d4d4d4;
     --clr-gray-100: #f4f4f4;
 
     /* Font sizes */
@@ -41,7 +37,7 @@ export const GlobalStyle = styled.createGlobalStyle`
 
     --fs-base: 1rem; // 16px
     --fs-s: 0.875rem; // 14px
-    --fs-xs: 0.75rem; // 12px
+    --fs-xs: 0.6rem; // 12px
 
     /* Font weights */
     --fw-light: 300;
@@ -164,15 +160,8 @@ export const GlobalStyle = styled.createGlobalStyle`
 
   body {
     font-family: "Poppins", sans-serif;
-    background: rgb(12, 61, 117);
-    background: linear-gradient(
-      0deg,
-      rgba(12, 61, 117, 1) 0%,
-      rgba(21, 16, 25, 1) 90%
-    );
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
+    background-color: var(--clr-titan-white);
     overflow-x: hidden;
     width: 100%;
     min-height: 100vh;
