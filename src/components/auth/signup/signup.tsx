@@ -58,7 +58,6 @@ export const SignUp: React.FC = () => {
       }
       setVisibility();
       const { token } = response;
-      // Store token in local storage
       localStorage.setItem("token", token);
       signup(token);
     }

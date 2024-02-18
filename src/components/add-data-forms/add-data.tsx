@@ -60,7 +60,7 @@ export const AddData: React.FC<IAdditionData> = ({ endPoint, fields }) => {
                   required: true,
                 })}
               />
-            ) : fieldType === "color" ? (
+            ) : fieldType === "file" ? (
               <input
                 type="file"
                 {...register(fieldName, {
